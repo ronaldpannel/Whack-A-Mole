@@ -33,8 +33,10 @@ moles.forEach((mole) => {
 
 function moveMole() {
   timerId = null;
-  timerId = setInterval(randomMole, 1500);
+  timerId = setInterval(randomMole, 900);
+  
 }
+
 moveMole();
 function countdown(){
   currentTime--

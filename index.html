@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wack A Mole</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="gameWrapper">
+      <div class="scoreBoard">
+        <p class="score" id="score">
+          Score: <span class="scoreValue" id="scoreValue">0</span>
+        </p>
+        <p class="Timer" id="timer">
+          Timer: <span class="time" id="time">0</span>
+        </p>
+      </div>
+      <div class="gameOver" id="gameOver">GameOver Your Score Was: <span class="gameOverScore"  id="gameOverScore">0</span></div>
+      <div class="gameBoard">
+        <div class="holeWrapper">
+          <div class="hole hole1">
+            <div class="mole small mole1" id="mole1"></div>
+          </div>
+          <div class="hole hole2">
+            <div class="mole small mole2" id="mole3"></div>
+          </div>
+          <div class="hole hole3">
+            <div class="mole small mole3" id="mole4"></div>
+          </div>
+          <div class="hole hole4">
+            <div class="mole large mole4" id="mole4"></div>
+          </div>
+          <div class="hole hole5">
+            <div class="mole large mole5" id="mole5"></div>
+          </div>
+          <div class="hole hole6">
+            <div class="mole large mole6" id="mole6"></div>
+          </div>
+        </div>
+        <button class="startBtn" id="startBtn">Start Game</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -50,7 +50,7 @@ function countdown(){
 
 countDownTimerId = setInterval(countdown, 1000)
 
-startBtn.addEventListener('click',() => {
+startBtn.addEventListener('pointerdown',() => {
   location.reload();
 })
 
